@@ -1,0 +1,60 @@
+/*my css file*/
+
+body {
+	background-image:url("arpit.jpeg") ;
+	background-size: 100% 100%;
+    background-repeat:no-repeat;
+	
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(BuxtonSketch.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(COOPBL.ttf);
+}
+.header{
+         display :block;
+         padding-left:550px;
+		 color: red;
+		 font-size: 50px;
+		 font-family: myFirstFont;
+		 text-decoration:underline;
+		 position:relative;
+		 text-shadow:10px 10px 10px rgb(10,20,40);
+	
+		}
+.teams_a{
+   background: pink;
+  
+ }
+ 
+ .teams_b{
+   background: yellow;
+ }
+ 
+.teams_a,.teams_b{
+          
+		  padding-left:70px;
+		  float:left;
+          color: green;
+		  font-size: 30px;
+		  font-style: normal;
+                  
+		  padding-bottom:100px;
+		  width:200px;
+		  height:80px;
+		  margin: 20px 5px;
+          z-index: 0;
+         -moz-border-radius: 5px 5px 0 0;
+         -webkit-border-radius: 5px;
+          border-radius: 10px 10px 10px 0;
+		  border: 2px solid black;
+		  }
+.team{
+     padding-left:100px;
+	 position:relative;
+	 top:-30px;
+	 }
